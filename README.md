@@ -8,8 +8,5 @@ Same as [SmokeDetector](https://github.com/Charcoal-SE/SmokeDetector):
 
     git clone https://github.com/Charcoal-SE/SmokeDetector.git
     cd SmokeDetector
-    git submodule init
-    git submodule update
-    sudo pip install beautifulsoup
-    sudo pip install requests --upgrade
-    sudo pip install websocket-client
+    git submodule update --init --recursive
+    sudo pip install -r requirements.txt
